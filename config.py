@@ -86,7 +86,7 @@ def configure(keymap):
     keymap_global["LU0-O"] = "End", "Enter"
     keymap_global["LU0-Y"] = "LC-C"
     keymap_global["LU0-P"] = "LC-V"
-    keymap_chrome = keymap.defineWindowKeymap(exe_name="chrome.exe", class_name="Chrome_WidgetWin_1")
+    keymap_global["LU0-Space"] = "Enter"
     keymap_chrome["LC-Tab"] = "LC-Y"
     # keymap_sublime = keymap.defineWindowKeymap(exe_name="sublime_text.exe", class_name="PX_WINDOW_CLASS")
     # keymap_sublime["LU0-O"] = "LC-Return"
