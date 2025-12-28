@@ -87,7 +87,9 @@ def configure(keymap):
     keymap_global["LU0-Y"] = "LC-C"
     keymap_global["LU0-P"] = "LC-V"
     keymap_global["LU0-Space"] = "Enter"
-    keymap_chrome["LC-Tab"] = "LC-Y"
+    # keymap_chrome = keymap.defineWindowKeymap(exe_name="chrome.exe", class_name="Chrome_WidgetWin_1")
+    # keymap_chrome["LC-Tab"] = "LC-Y" # for Ctrl+Tab MRU extention
+    # keymap_chrome["LC-Tab"] = "LAlt-W" # for CLUT extention
     # keymap_sublime = keymap.defineWindowKeymap(exe_name="sublime_text.exe", class_name="PX_WINDOW_CLASS")
     # keymap_sublime["LU0-O"] = "LC-Return"
     keymap_vs = keymap.defineWindowKeymap(exe_name="devenv.exe")
