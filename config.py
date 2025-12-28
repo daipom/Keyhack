@@ -38,6 +38,8 @@ def configure(keymap):
     # keymap_global["O-Space"] = "Space"  # ワンショットモディファイア
     # keymap_global["29"] = "Space"  # Space救出
     # keymap_global["LC-29"] = "LC-Space"  # Space救出
+    keymap_global["U-240"] = "U-243"
+    keymap_global["D-242"] = "D-244"
     keymap_global["BackSlash"] = "LShift-BackSlash"
     keymap_global["Insert"] = "Insert", "Insert"
     keymap_global["LU0-X"] = "Back"
